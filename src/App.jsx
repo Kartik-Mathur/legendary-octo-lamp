@@ -14,6 +14,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Todos Application</h1>
       {todos.map((t) => {
         return (
           <li key={t._id}>
